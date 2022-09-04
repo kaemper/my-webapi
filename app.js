@@ -23,6 +23,7 @@ app.use(cors());
 //  next() 
 // });
 // da kann man alles mögliche selber als Middleware implementieren
+// hier jetzt ein git test text
 
 app.use(logger({
     level: 'debug'
