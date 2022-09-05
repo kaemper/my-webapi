@@ -41,7 +41,7 @@ app.get('/names', (req, res) => {
     res.send(person);
 });
 
-//curl -X POSTT -d {"user": "enya"} -H "Content-Type: application/json" http://localhost:3000/new
+// curl -X POST -d '{"firstname":"Lutz"}' -H "content-type: application/json" http://localhost:3000/new
 // sollte den body einfach zurückgeben
 app.post('/new', (req, res) => {
      res.send(req.body);
